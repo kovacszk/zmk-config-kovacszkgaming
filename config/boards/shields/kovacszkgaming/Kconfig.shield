@@ -1,0 +1,2 @@
+config SHIELD_KOVACSZKGAMING
+    def_bool $(shields-list-contains, kovacszkgaming)
