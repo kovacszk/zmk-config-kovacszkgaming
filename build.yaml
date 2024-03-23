@@ -18,5 +18,5 @@
 #
 ---
 include:
-  - board: nnrfmicro_11
+  - board: nrfmicro_11
     shield: kovacszkgaming
