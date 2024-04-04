@@ -22,7 +22,7 @@
                 &none    &kp LWIN    &none      &none    &none    &kp BSPC
                 &none    &none       &none      &none    &none    &bt BT_SEL 0
                 &none    &none       &none      &none    &none    &bootloader
-                &out OUT_BLE   &none       &none      &none    &none    &bt BT_CLR
+                &none    &out OUT_BLE       &none      &none    &none    &bt BT_CLR
             >;
         };
     };
