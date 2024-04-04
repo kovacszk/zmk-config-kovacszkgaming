@@ -10,19 +10,20 @@
 
         default_layer {
             bindings = <
-                &kp F1    &kp ESC     &kp KP_N1   &kp KP_N2   &kp KP_N3   &kp M
-                &kp F2    &kp F3      &kp Q    &kp E    &kp R    &kp F
-                &kp LALT  &kp LSHIFT  &kp A    &kp W    &kp D    &kp ENTER
-                &mo 1     &kp LCTRL   &kp G    &kp S    &kp C    &kp SPACE
+                &kp F1    &kp ESC     &kp 1   &kp 2   &kp 3   &kp M
+                &kp F2    &kp F3      &kp Q   &kp E   &kp R   &kp F
+                &kp LALT  &kp LSHIFT  &kp A   &kp W   &kp D   &kp ENTER
+                &mo 1     &kp LCTRL   &kp G   &kp S   &kp C   &kp SPACE
             >;
         }; 
         
         bt_layer {
             bindings = <
-                &none    &kp LWIN    &none      &none    &none               &none
-                &none    &none       &none      &none    &bt BT_CLR          &bt BT_SEL 0
-                &none    &none       &none      &none    &none               &none
-                &none    &none       &none      &none    &none               &none
+                &none    &none    &none      &none    &none    &bt BT_CLR
+                &none    &none       &none      &none    &none    &bt BT_SEL 0
+                &none    &none       &none      &none    &none    &bootloader
+                &none    &none       &none      &none    &none    &none
+            >;
         };
     };
 };
