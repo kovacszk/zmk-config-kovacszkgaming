@@ -1,6 +1,6 @@
-if SHIELD_KOVACSZKGAMING
+if SHIELD_KOVACSZK
 
 config ZMK_KEYBOARD_NAME
-    default "kovcszkgaming"
+    default "kovcszk"
 
     endif
